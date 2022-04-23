@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Təqaüd formu</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h2 class="teqaud">Polşada 2022-2023-cü tədris ili üzrə təqaüd proqramı</h2>
+    <p>Şəxsi məlumatlarınızı daxil edin:</p>
+    <form>
+      <label for="name">Ad*:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Ad"
+        autofocus
+        required
+      />
+      <br />
+      <br />
+      <label for="surname">Soyad*:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Soyad"
+        required
+      />
+      <br />
+      <br />
+      <label for="email">E-poçt ünvanı*:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-poçt"
+        required
+      />
+      <br />
+      <br />
+      <label for="tel">Telefon nömrəsi*:</label>
+      <input type="tel" name="tel" id="tel" placeholder="Tel" required />
+      <br />
+      <br />
+      <label for="birth">Doğulduğu yer*:</label>
+      <select name="doguldugu yer" id="birth">
+        <option value="Bakı">Bakı</option>
+        <option value="Balakən">Balakən</option>
+        <option value="Cəlilabad">Cəlilabad</option>
+        <option value="Gəncə">Gəncə</option>
+        <option value="Lənkəran">Lənkəran</option>
+        <option value="Naxçıvan">Naxçıvan</option>
+        <option value="Quba">Quba</option>
+        <option value="Qusar">Qusar</option>
+        <option value="Xaçmaz">Xaçmaz</option>
+        <option value="Xızı">Xızı</option></select
+      ><br /><br />
+      <label for="unvan">Faktiki Ünvan*:</label>
+      <input
+        type="text"
+        name="unvan"
+        id="unvan"
+        placeholder="Ünvan"
+        size="30"
+        required
+      />
+      <br />
+      <br />
+      <label for="date">Doğum tarixi*:</label><br />
+      <input type="date" name="date" id="date" /> <br /><br />
+      <label for="uni">Təhsil aldığı universitet*:</label><br />
+      <input type="text" name="universitet" id="uni" list="universty" />
+      <datalist id="universty">
+        <option value="Azərbaycan Dövlət Neft və Sənaye Universiteti">
+          Azərbaycan Dövlət Neft və Sənaye Universiteti
+        </option>
+        <option value="Azərbaycan Dillər Universiteti">
+          Azərbaycan Dillər Universiteti
+        </option>
+        <option value="Azərbaycan Dövlət Pedaqoji Universiteti">
+          Azərbaycan Dövlət Pedaqoji Universiteti
+        </option>
+        <option value="Azərbaycan Texniki Universiteti">
+          Azərbaycan Texniki Universiteti
+        </option>
+        <option value="Bakı Dövlət Universiteti">
+          Bakı Dövlət Universiteti
+        </option>
+        <option value="Bakı Mühəndislik Universiteti">
+          Bakı Mühəndislik Universiteti
+        </option>
+      </datalist>
+      <br /><br />
+      <label for="file">Şəxsiyyət vəsiqəsi(Ön və arxa tərəf)*:</label><br />
+      <input type="file" name="files" id="file" />
+      <br />
+      <br />
+      <label for="text"
+        >Tələbə tərəfindən proqramda iştirak səbəbini bildirən müraciət. (A4
+        səhifə miqdarında min 300 söz)*:</label
+      ><br />
+      <textarea
+        name="text"
+        id="text"
+        cols="30"
+        rows="10"
+        placeholder="Mətni daxil edin"
+        maxlength="300"
+      ></textarea>
+      <br /><br />
+      <input type="reset" value="Sil" />
+      <input type="submit" value="Göndər" />
+    </form>
+  </body>
+</html>

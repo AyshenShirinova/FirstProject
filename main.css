@@ -1,0 +1,46 @@
+header {
+    background-color:cornsilk;
+    padding: 20px;
+  }
+  .name{
+      color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .topnav {
+    color: white;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    color:darkred;
+    background-color: white;
+  }
+  .body{
+      background-color: aliceblue;
+  }
+  .h2class{
+    background-color: gainsboro;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+       color:black;
+       font-size: 25px;
+
+    }
+    .imgClass img{
+        width: 950px;
+        height: 500px;
+    }
+.img2Class {
+  width: 200px;
+  height: 300px;
+}
+.img3Class img{
+  width: 300px;
+  height: 200px;
+}
+.footer{
+  text-align: center;
+  background-color: brown;
+  color: white;
+}
+   
+  
